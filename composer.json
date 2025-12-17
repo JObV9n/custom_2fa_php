@@ -1,0 +1,21 @@
+{
+    "name": "jobv9n/custom-2fa",
+    "autoload": {
+        "psr-4": {
+            "Custom2FA\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jobv9n"
+        }
+    ],
+    "scripts": {
+        "serve": "php -S localhost:8089 -t public"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2"
+    }
+}
+
